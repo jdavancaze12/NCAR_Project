@@ -1,0 +1,219 @@
+#bg {
+    position: fixed; 
+    top: 0px; 
+    left: 0; 
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+.centered {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Helvetica Neue", "Arial Black", sans-serif;
+    font-style: bold;
+    font-weight:300;
+    font-variant-ligatures: normal;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    line-height: 110%;
+}
+
+.centered2 {
+    position: absolute;
+    top: 210px;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Helvetica Neue", "Arial Black", sans-serif;
+    font-style: italic;
+    font-weight:600;
+    font-variant-ligatures: normal;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    line-height: 110%;
+}
+
+#row1 {
+    top: 150px;
+    color:rgb(0, 0, 0)
+}
+
+.card {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 100%;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 1);
+    opacity: .3;
+    padding: 40px;
+    
+}
+
+.card1 {
+    position: absolute;
+    top: 550px;
+    left: 0px;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    opacity: 1;
+    padding: 0px;
+}
+
+.card2 {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    right: 200px;
+    width: 300px;
+    height: 240px;
+    opacity: .8;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.card3 {
+    position: absolute;
+    top: 550px;
+    left: 0px;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    opacity: .5;
+    padding: 40px;
+}
+
+p {
+    top: 100px;
+    font-family: "Roboto", "Arial Black", sans-serif;
+    font-style: bold;
+    font-weight:150;
+    font-variant-ligatures: normal;
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+    line-height: 100%;
+    text-align: center;
+    /*color:rgb(255, 174, 0)*/
+    text-shadow: 3px 3px #000000;
+}
+
+#center {
+    text-align: center;
+    left: 50px;
+}
+
+h1 {
+    font: bold 28px Ariel Sans-Serif;
+    text-shadow: 2px 2px #000000;
+    /*color:rgb(255, 123, 0)*/
+}
+
+h2 {
+    font-family: "Helvetica Neue", "Arial Black", sans-serif;
+    font-style: italic;
+    font-weight:100;
+    font-variant-ligatures: normal;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    line-height: 80%;
+    text-align: center;
+    /*color:rgb(255, 174, 0)*/
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #90e2f7e1;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .button2 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #7586d3a9;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 1);
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    font: bold 30px Tahoma Sans-Serif;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+#nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 1em 0;
+	padding: 0;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #ccc;  }
+#nav ul {
+	list-style: none;
+	width: 800px;
+	margin: 0 auto;
+	padding: 0; }
+#nav li {
+	float: left; }
+#nav li a {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #069;
+	border-right: 1px solid #ccc; }
+#nav li:first-child a {
+	border-left: 1px solid #ccc; }
+#nav li a:hover {
+	color: #c00;
+	background-color: #fff; }
+
+:any-link {
+      color: black;
+      font: bold 24px/35px Serif, Sans-Serif; 
+  }
